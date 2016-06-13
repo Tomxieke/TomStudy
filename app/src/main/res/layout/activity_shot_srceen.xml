@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    tools:context="com.xieke.ciist.tomstudy.function.ShotSrceenActivity">
+
+    <Button
+        android:id="@+id/shot_srceen_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="截屏"/>
+
+    <ImageView
+        android:id="@+id/show_shot_img"
+        android:layout_below="@id/shot_srceen_btn"
+        android:background="@anim/frame_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageButton
+        android:id="@+id/image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_bg_selector"/>
+
+    <ImageView
+        android:id="@+id/totate_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/rotate_bg"
+        android:layout_below="@id/image_btn"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

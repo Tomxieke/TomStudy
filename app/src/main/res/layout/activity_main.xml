@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xieke.ciist.tomstudy.wiget.StrokeTextView
+        android:text="Hello World!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+
+    <com.xieke.ciist.tomstudy.wiget.StrokeTextView
+        android:text="掌权!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textScaleX="2"
+        android:textStyle="bold"
+        myview:ciist_stroke_color="@color/border_text"
+        myview:ciist_stroke_width="2dp"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+   <!-- <com.xieke.ciist.tomstudy.wiget.CircleImageView
+        android:id="@+id/cricleImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        myview:civ_border_color="@color/colorPrimary"
+        myview:civ_border_width="2dp"/>-->
+
+    <android.support.v4.widget.CircleImageView
+        android:id="@+id/v4_cirleImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+
+
+</LinearLayout>
